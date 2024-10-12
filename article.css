@@ -1,0 +1,190 @@
+body {
+  font-family: "League Spartan";
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.navbar {
+  background: #003049;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  font-family: impact;
+}
+
+.logo span:first-child {
+  color: #fcbf49;
+  font-size: x-large;
+}
+
+.logo span:last-child {
+  font-size: x-large;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.hello img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.article-header {
+  text-align: center;
+  font-family: impact;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #003049;
+  padding: 2% 0;
+  background: #fff;
+}
+
+.featured-article .article-card {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  font-family: verdana;
+  font-weight: normal;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-size: cover;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.article-card img {
+  padding-left: 5%;
+  max-width: 80%;
+  width: 400px;
+  height: auto;
+}
+
+.article-content {
+  color: #000;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.article-content h2 {
+  font-size: larger;
+}
+
+.article-card:hover {
+  filter: drop-shadow(0 0 5px #003049);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 40px;
+}
+
+.article-item {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.article-info {
+  padding: 15px;
+}
+
+.article-info h3 {
+  color: #000;
+  font-family: verdana;
+  font-size: large;
+}
+
+.article-info p {
+  font-family: verdana;
+  font-size: small;
+  color: #555555;
+}
+
+.article-item:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.3s;
+}
+
+.submission-section {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 5% 0% 5% 0%;
+}
+
+.submission-section h2 {
+  font-family: impact;
+  font-size: xx-large;
+  color: #003049;
+}
+
+.submission-section p {
+  font-family: verdana;
+  font-weight: normal;
+  font-size: large;
+  color: #003049;
+}
+
+.submission-section button {
+  background: #f77f00;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 13px;
+  color: #003049;
+  font-weight: bold;
+  margin: 10px;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+}
+
+.submission-section button:hover {
+  filter: drop-shadow(0 0 5px #f77f00);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.3s;
+}
+
+footer {
+  background: #003049;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-family: verdana;
+  font-size: small;
+}
+
+.footer-name span:first-child {
+  color: #fcbf49;
+  font-size: xx-large;
+  font-family: impact;
+}
+.footer-name span:last-child {
+  font-size: xx-large;
+  font-family: impact;
+}

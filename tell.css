@@ -1,0 +1,56 @@
+body {
+  font-family: "League Spartan";
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.navbar {
+  background: #003049;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  font-family: impact;
+}
+
+.logo span:first-child {
+  color: #fcbf49;
+  font-size: x-large;
+}
+
+.logo span:last-child {
+  font-size: x-large;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: #fff;
+}
+
+.nav-links li {
+  font-size: 1rem;
+  color: #fff;
+}
+
+footer {
+  background: #003049;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-family: verdana;
+  font-size: small;
+}
+
+.footer-name span:first-child {
+  color: #fcbf49;
+  font-size: xx-large;
+  font-family: impact;
+}
+.footer-name span:last-child {
+  font-size: xx-large;
+  font-family: impact;
+}

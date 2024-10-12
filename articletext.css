@@ -1,0 +1,95 @@
+body {
+  font-family: "League Spartan";
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.navbar {
+  width: 93%;
+  position: fixed;
+  background: #003049;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  font-family: impact;
+}
+
+.logo span:first-child {
+  color: #fcbf49;
+  font-size: x-large;
+}
+
+.logo span:last-child {
+  font-size: x-large;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.article-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.article-title h1 {
+  font-family: impact;
+  font-size: 2.5rem;
+  color: #003049;
+  margin: 20px 0;
+}
+
+.author-date {
+  font-family: verdana;
+  font-weight: normal;
+  font-size: small;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.article-image img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.article-text p {
+  font-family: verdana;
+  font-weight: normal;
+  font-size: large;
+  color: #000000;
+  text-align: justify;
+  line-height: 1.8;
+  padding-bottom: 5%;
+}
+
+footer {
+  background: #003049;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-family: verdana;
+  font-size: small;
+}
+
+.footer-name span:first-child {
+  color: #fcbf49;
+  font-size: xx-large;
+  font-family: impact;
+}
+.footer-name span:last-child {
+  font-size: xx-large;
+  font-family: impact;
+}

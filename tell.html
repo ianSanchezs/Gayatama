@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="https://iili.io/2HC8T0B.png" />
+    <title>Talking Hands</title>
+    <link rel="stylesheet" href="tell.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo"><span>Talking</span><span>Hands.</span></div>
+        <ul class="nav-links">
+          <a style="text-decoration: none" href="index.html"><li>Home</li></a>
+          <a style="text-decoration: none" href="article.html"
+            ><li>Article</li></a
+          >
+          <a style="text-decoration: none" href="learn.html"
+            ><li>Learn SIBI</li></a
+          >
+          <a style="text-decoration: none" href="find.html"
+            ><li>Find Community</li></a
+          >
+          <a style="text-decoration: none" href="tell.html"
+            ><li>Tell Story</li></a
+          >
+        </ul>
+      </nav>
+    </header>
+    <flowise-fullchatbot></flowise-fullchatbot>
+    <script type="module">
+      import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
+      Chatbot.initFull({
+        chatflowid: "82500357-2dac-41a1-b72b-e8a89149ec70",
+        apiHost: "http://localhost:3000",
+        theme: {
+          chatWindow: {
+            showAgentMessages: true,
+            welcomeMessage:
+              "Hello! I'l be there for you. Tell me your story today!",
+            errorMessage:
+              "I'm so sorry, but i don't get it. There is an error message, please rewrite it again.",
+            backgroundColor: "#ffffff",
+            height: 680,
+            width: 1403,
+            fontSize: 16,
+            starterPromptFontSize: 15,
+            clearChatOnReload: true,
+            botMessage: {
+              backgroundColor: "#FCBF49",
+              textColor: "#303235",
+              showAvatar: true,
+              avatarSrc: "https://i.ibb.co.com/dMYLZ4X/bot.png",
+            },
+            userMessage: {
+              backgroundColor: "#003049",
+              textColor: "#ffffff",
+              showAvatar: true,
+              avatarSrc: "https://i.ibb.co.com/V34gKsb/human.png",
+            },
+            textInput: {
+              placeholder: "Type your question",
+              backgroundColor: "#ffffff",
+              textColor: "#303235",
+              sendButtonColor: "#3B81F6",
+              maxChars: 1000000,
+              maxCharsWarningMessage:
+                "You exceeded the characters limit. Please input less than 1000000 characters.",
+              autoFocus: true,
+              sendMessageSound: true,
+              receiveMessageSound: true,
+            },
+            feedback: {
+              color: "#303235",
+            },
+            footer: {
+              textColor: "#303235",
+              text: "Powered by",
+              company: "Flowise",
+              companyLink: "https://flowiseai.com",
+            },
+          },
+        },
+      });
+    </script>
+
+    <footer>
+      <div class="footer-name"><span>Talking</span><span>Hands.</span></div>
+      <p>by Power of Du'a</p>
+    </footer>
+  </body>
+</html>

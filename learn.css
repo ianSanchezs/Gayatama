@@ -1,0 +1,97 @@
+body {
+  font-family: "League Spartan";
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.navbar {
+  background: #003049;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  font-family: impact;
+}
+
+.logo span:first-child {
+  color: #fcbf49;
+  font-size: x-large;
+}
+
+.logo span:last-child {
+  font-size: x-large;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: #fff;
+}
+
+.nav-links li {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.hello img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.sibi-container {
+  text-align: center;
+  font-family: impact;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #003049;
+  padding: 50px 0;
+  background: #fff;
+  padding-bottom: 60%;
+}
+
+.sibi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.sibi-grid img {
+  width: 100%;
+  max-width: 290px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.sibi-grid img:hover {
+  filter: drop-shadow(0 0 5px #f77f00);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.3s;
+}
+
+footer {
+  background: #003049;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-family: verdana;
+  font-size: small;
+}
+
+.footer-name span:first-child {
+  color: #fcbf49;
+  font-size: xx-large;
+  font-family: impact;
+}
+.footer-name span:last-child {
+  font-size: xx-large;
+  font-family: impact;
+}
